@@ -1,9 +1,16 @@
 import React from 'react'
+import { RegisterBackground } from '../../assets'
+import './register.scss'
 
 function Register() {
   return (
-    <div>
-      <h1>This is register page</h1>
+    <div className="main-page">
+      <div className="left">
+        <img src={RegisterBackground} className="bg-image"/>
+      </div>
+      <div className="right">
+        form
+      </div>
     </div>
   )
 }
