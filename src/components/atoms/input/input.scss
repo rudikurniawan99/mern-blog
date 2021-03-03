@@ -1,0 +1,18 @@
+.input-wrapper{
+  p.label{
+    font-size: 14px;
+    color: #2d2d2d;
+    margin: 0;
+    margin-bottom: 4px;
+  }
+
+  input.input{
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
